@@ -2,7 +2,7 @@
 
 Neural Network analyzer produces detailed information about the estimated execution time, memory required, MACs and other metrics for a given networks. 
 
-These parameters will serve as inputs to your performance prediction tool:
+## These parameters will serve as inputs to your performance prediction tool
 -External – internal memory bandwidth in bytes / second (10 GB / second) Internal memory size in bytes (16 MB) 
 
 -Matrix multiplication primitive size M, N, K in BLAS notation (32, 32, 32) Number of matrix multiplication primitives operating in     parallel (1) Number of matrix multiplication primitive completions per second (1e9 / 32) 
@@ -10,7 +10,7 @@ These parameters will serve as inputs to your performance prediction tool:
 -Vector primitive size N x 1 (32) Number of vector primitives operating in parallel (1) Number of vector primitive completions per        second (1e9) 
 
 
-Estimated parameters:
+## Estimated parameters
 -Input feature map up sampling ratio 
 -Number of input feature maps 
 -Number of input feature map rows 
